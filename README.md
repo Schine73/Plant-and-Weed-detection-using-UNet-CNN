@@ -18,5 +18,12 @@ Additionally, instead of using dice loss, a weighted cross entropy loss function
 The dataset used for training consist of images taken in the field and contain mostly images of maize and some of sugar beets.
 The images were taken and hand segmented by me and my class colleagues. Feel free to use them for your own purposes.
 
-The best results were achieved after 245 epochs with a learn rate of 0,0001. That particular model can be found in [here]  
+The best results were achieved after 245 epochs with a learn rate of 0,0001. That particular model can be found in 'trained_models' folder.
+
+## Results
+
+The trained model can be tested using the 'full_image_testing.py'. It loads a specified model file and passes images located in the 'test_images' directory through the model. It then overlays the resulting segmentation mask with the original image and calculates the percentage of pixels for each class. The resulting graph is then output to the 'temp' directory.
+
+Here is an example of that:
+
 ![result of best model](/results/full_image_test2.png)
