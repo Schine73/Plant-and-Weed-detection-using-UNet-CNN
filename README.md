@@ -13,4 +13,10 @@ The code for the 'model_training.py' is largely based on [this](https://colab.re
 Some changes had to be made in order to get the code to work on Tensorflow 2.10.
 Additionally, instead of using dice loss, a weighted cross entropy loss function was used in training.
 
-The training images were taken and segmented by me and my class colleagues. Feel free to use them for your own purposes.
+## Training
+
+The dataset used for training consist of images taken in the field and contain mostly images of maize and some of sugar beets.
+The images were taken and hand segmented by me and my class colleagues. Feel free to use them for your own purposes.
+
+The best results were achieved after 245 epochs with a learn rate of 0,0001. That particular model can be found in [here]  
+![result of best model](/results/full_image_test2.png)
