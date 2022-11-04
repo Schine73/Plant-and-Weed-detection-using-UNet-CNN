@@ -27,4 +27,3 @@ The trained model can be tested using the 'full_image_testing.py'. It loads a sp
 Here is an example of that:
 
 ![example result of maize](/results/full_image_test4.png)
-![example result of sugar beets](/results/full_image_test9.png)
