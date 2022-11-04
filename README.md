@@ -10,7 +10,7 @@ This particular model was trained with images of young maize and sugar beet plan
 This was a school project for my computational intelligence class in my bachelor studies of agricultural technologies and digital farming at the university of applied sciences Wiener Neustadt.
 The code for the 'model_training.py' is largely based on [this](https://colab.research.google.com/github/MarkDaoust/models/blob/segmentation_blogpost/samples/outreach/blogs/segmentation_blogpost/image_segmentation.ipynb#scrollTo=7Plun_k1dAML) tutorial by Mark Daoust on Google Colab (the page was accessed in June 2022).
 
-Some changes had to be made in order to get the code to work on Tensorflow 2.10.
+Some changes had to be made in order to get the code to work in Tensorflow 2.10.
 Additionally, instead of using dice loss, a weighted cross entropy loss function was used in training.
 
 ## Training
